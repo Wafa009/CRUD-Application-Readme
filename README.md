@@ -26,7 +26,7 @@ The application interacts with the following table structure:
 1. Clone the Repository
 
 Clone the project from GitHub:
-```http
+```bash
   git clone https://github.com/your-username/your-repo-name.git
 
 ```
@@ -34,7 +34,7 @@ Clone the project from GitHub:
 Create a SQL Server database to match the table structure provided above.
 You can use the script provided below to create the `People` table in your database.
 
-```http
+```bash
   CREATE TABLE People (
     ID INT PRIMARY KEY,
     Name NVARCHAR(50),
