@@ -44,7 +44,7 @@ You can use the script provided below to create the `People` table in your datab
 ```
 3. Set up the Connection String
 In your C# project, navigate to the `appsettings.json` (or `Web.config` for .NET Framework) file and modify the connection string to point to your SQL Server instance.
-```http
+```bash
   {
   "ConnectionStrings": {
     "DefaultConnection": "Data Source=DESKTOP-M2FCJ8B\\MSSQLSERVER01;Initial Catalog=crud;Integrated Security=True;TrustServerCertificate=True;"
