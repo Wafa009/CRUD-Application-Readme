@@ -45,11 +45,9 @@ You can use the script provided below to create the `People` table in your datab
 3. Set up the Connection String
 In your C# project, navigate to the `appsettings.json` (or `Web.config` for .NET Framework) file and modify the connection string to point to your SQL Server instance.
 ```bash
-  {
-  "ConnectionStrings": {
-    "DefaultConnection": "Data Source=DESKTOP-M2FCJ8B\\MSSQLSERVER01;Initial Catalog=crud;Integrated Security=True;TrustServerCertificate=True;"
-  }
-}
+  "<connectionStrings>
+<add name="ContactDB" connectionString= "Data Source=DESKTOP-M2FCJ8B\\MSSQLSERVER01;Initial Catalog=crud;Integrated Security=True;TrustServerCertificate=True;" />
+</connectionStrings>"
 ```
 4. Run the Application
 - Open the project in Visual Studio and build the solution.
