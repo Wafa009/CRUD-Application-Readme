@@ -82,5 +82,5 @@ For support, email naziyatwafa@gmail.com or watch my Youtube Video https://youtu
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the [MIT] (https://choosealicense.com/licenses/mit/) License - see the LICENSE.md file for details.
 
