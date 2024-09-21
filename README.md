@@ -27,7 +27,7 @@ The application interacts with the following table structure:
 
 Clone the project from GitHub:
 ```bash
-  git clone https://github.com/your-username/your-repo-name.git
+  git clone https://github.com/Wafa009/CRUD Application Readme.git
 
 ```
 2. Set up the Database
